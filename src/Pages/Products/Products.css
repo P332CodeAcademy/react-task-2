@@ -1,0 +1,20 @@
+.products-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 20px;
+}
+.card{
+    width: 18%;
+    background-color: azure;
+    border: 1px solid gray;
+
+}
+.card img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}   

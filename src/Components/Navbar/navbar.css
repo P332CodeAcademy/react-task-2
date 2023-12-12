@@ -1,0 +1,14 @@
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.container .links-container{
+    display: flex;
+    gap: 10px;
+}
+.container .links-container a{
+    text-decoration: none;
+    color: black;
+}
